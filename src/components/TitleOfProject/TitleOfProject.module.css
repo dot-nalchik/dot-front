@@ -1,0 +1,22 @@
+.title_container {
+  width: 100%;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.title {
+  width: 100%;
+  font-size: 85px;
+  text-align: center;
+}
+
+.client_btn {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #882FAE;
+  font-weight: 600;
+  cursor: pointer;
+}
