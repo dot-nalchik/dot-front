@@ -6,6 +6,33 @@
   gap: 80px;
 }
 
+.project_container {
+  gap: 20px;
+  padding: 40px 200px 200px 110px;
+}
+
+.project_descr {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.018em;
+  color: #000000;
+background: transparent;
+  width: 170px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+p {font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.018em;
+  color: #000000;
+}
+
 .title {
   width: 100%;
   font-size: 85px;
@@ -19,4 +46,10 @@
   color: #882FAE;
   font-weight: 600;
   cursor: pointer;
+}
+
+.project_title {
+  text-align: start;
+  padding-top: 0;
+  margin-top: 0;
 }

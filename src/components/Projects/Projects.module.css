@@ -33,3 +33,12 @@
   letter-spacing: 0.018em;
   cursor: pointer;
 }
+
+.new_project_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.new_project_container > img {
+  flex-grow: 1;
+}
