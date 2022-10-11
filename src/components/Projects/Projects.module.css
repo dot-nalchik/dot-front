@@ -1,0 +1,35 @@
+.projects_container {
+  padding: 80px;
+  display: flex;
+  gap: 40px
+}
+
+.flex_projects1, .flex_projects2 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.flex_projects1 {
+  margin-top: 80px;
+}
+
+.projects_container img {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.open_btn {
+  background: transparent;
+  color: #882FAE;
+  border: none;
+  outline: none;
+  align-self: end;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.018em;
+  cursor: pointer;
+}
