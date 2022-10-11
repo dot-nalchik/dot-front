@@ -5,7 +5,7 @@ export interface MainState {
   isFoodelityPage: boolean,
   isIrinaPage: boolean,
   isKausarPage: boolean,
-  isMinivanPage: boolean,
+  isQuickerPage: boolean,
   isPrintersPage: boolean,
   isSozaevPage: boolean,
 }
@@ -15,7 +15,7 @@ const initialState: MainState = {
   isFoodelityPage: false,
   isIrinaPage: false,
   isKausarPage: false,
-  isMinivanPage: false,
+  isQuickerPage: false,
   isPrintersPage: false,
   isSozaevPage: false,
 };
@@ -33,8 +33,8 @@ export const main = createSlice({
     changeIrinaPage: (state, action: PayloadAction<boolean>) => {
       state.isIrinaPage = action.payload;
     },
-    changeMinivanPage: (state, action: PayloadAction<boolean>) => {
-      state.isMinivanPage = action.payload;
+    changeQuickerPage: (state, action: PayloadAction<boolean>) => {
+      state.isQuickerPage = action.payload;
     },
     changeKausarPage: (state, action: PayloadAction<boolean>) => {
       state.isKausarPage = action.payload;
@@ -53,7 +53,7 @@ export const {
   changeFoodelityPage,
   changeIrinaPage,
   changeKausarPage,
-  changeMinivanPage,
+  changeQuickerPage,
   changePrintersPage,
   changeSozaevPage,
 } = main.actions;

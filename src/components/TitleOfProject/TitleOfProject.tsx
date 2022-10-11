@@ -4,7 +4,7 @@ import {useAppSelector} from "../../redux/hooks";
 import clsx from "clsx";
 
 const TitleOfProject = () => {
-  const isQuicker = useAppSelector((state) => state.main.isMinivanPage);
+  const isQuicker = useAppSelector((state) => state.main.isQuickerPage);
 
   return (
       <>
@@ -22,7 +22,6 @@ const TitleOfProject = () => {
         )}
       </>
   );
-
 };
 
 export default memo(TitleOfProject);

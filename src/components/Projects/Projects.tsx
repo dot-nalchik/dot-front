@@ -8,11 +8,11 @@ import printers from "../../images/project_images/printers.png";
 import sozaev from "../../images/project_images/sozaev.png";
 import {useAppSelector} from "../../redux/hooks";
 import {useDispatch} from "react-redux";
-import {changeMinivanPage} from "../../redux/models/main";
+import {changeQuickerPage} from "../../redux/models/main";
 
 type MyType = {
   id: number;
-  name: string;
+  name: any;
 }
 
 type MyGroupType = {
@@ -27,7 +27,8 @@ const Projects = ({data}: any) => {
   console.log(data);
   const dispatch = useDispatch()
   const [openAddProjects, setOpenAddProjects] = useState(true);
-  const isQuicker = useAppSelector((state) => state.main.isMinivanPage);
+  const isQuicker = useAppSelector((state) => state.main.isQuickerPage);
+  const isPrintersPage = useAppSelector((state) => state.main.isPrintersPage);
 
   function openAllProjects() {
     setOpenAddProjects(false);
@@ -35,7 +36,7 @@ const Projects = ({data}: any) => {
 
   const enableNewsStatus = useCallback(
       () => {
-        dispatch(changeMinivanPage(true))
+        dispatch(changeQuickerPage(true))
       },
       [dispatch],
   );
@@ -69,8 +70,7 @@ const Projects = ({data}: any) => {
 
               </section>
             </div>
-        ) : (
-            <div className={styles.new_project_container}>
+        ) : (<div className={styles.new_project_container}>
               {data.renderQuicker.map((picture:any) => (
                   <img
                       className={styles.picture}
@@ -78,8 +78,7 @@ const Projects = ({data}: any) => {
                       key={picture.id}
                   />
               ))}
-            </div>
-        )}
+            </div>)}
       </>
   );
 };
