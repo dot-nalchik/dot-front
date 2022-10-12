@@ -18,19 +18,22 @@
   line-height: 110%;
   letter-spacing: 0.018em;
   color: #000000;
-background: transparent;
+  background: transparent;
   width: 170px;
   padding: 10px 20px;
   border: 2px solid black;
   border-radius: 50px;
   margin-top: 50px;
+  margin-left: 20px;
 }
 
-p {font-weight: 500;
+p {
+  font-weight: 500;
   font-size: 24px;
   line-height: 150%;
   letter-spacing: 0.018em;
   color: #000000;
+  margin-left: 20px;
 }
 
 .title {
@@ -52,4 +55,17 @@ p {font-weight: 500;
   text-align: start;
   padding-top: 0;
   margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 20px;
 }

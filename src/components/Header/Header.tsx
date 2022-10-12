@@ -18,20 +18,26 @@ const Header = () => {
   );
 
   return (
-    <div id="at_the_top" className={styles.header}>
-      <img
-        src={logo}
-        alt="dot_logo"
-        className={styles.logo}
-        onClick={enableMainStatus}
-      />
-      <div className={styles.flex_btn}>
-        <button className={styles.btn}>Проекты</button>
-        <button className={styles.btn}>Контакты</button>
-        <button className={clsx(styles.request_btn, styles.btn)}>Заявка</button>
+      <div className={styles.header}>
+        <img
+            id="at_the_top"
+            src={logo}
+            alt="dot_logo"
+            className={styles.logo}
+            onClick={enableMainStatus}
+        />
+        <div className={styles.flex_btn}>
+          <a href="#">
+            <button className={styles.btn}>Проекты</button>
+          </a>
+          <a href="#">
+            <button className={styles.btn}>Контакты</button>
+          </a>
+          <a href="#">
+            <button className={clsx(styles.request_btn, styles.btn)}>Заявка</button>
+          </a>
+        </div>
       </div>
-
-    </div>
   );
 };
 
