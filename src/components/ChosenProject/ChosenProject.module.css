@@ -1,0 +1,10 @@
+.project_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+ padding: 80px;
+}
+
+.project_item {
+  flex-grow: 1;
+}

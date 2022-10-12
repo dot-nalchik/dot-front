@@ -8,18 +8,18 @@ const TitleOfProject = () => {
 
   return (
       <>
-        {isQuicker ? (
-            <div className={clsx(styles.title_container, styles.project_container)}>
-              <h1 className={clsx(styles.title, styles.project_title)}>Quicker</h1>
-              <p>– служба доставки</p>
-              <button className={styles.project_descr}>Брендинг</button>
-            </div>
-        ) : (
+        {/*{isQuicker ? (*/}
+        {/*    <div className={clsx(styles.title_container, styles.project_container)}>*/}
+        {/*      <h1 className={clsx(styles.title, styles.project_title)}>Quicker</h1>*/}
+        {/*      <p>– служба доставки</p>*/}
+        {/*      <button className={styles.project_descr}>Брендинг</button>*/}
+        {/*    </div>*/}
+        {/*) : (*/}
             <div className={styles.title_container}>
               <h1 className={styles.title}>Заголовок заголовок заголовок заголовок заголовок</h1>
               <button className={styles.client_btn}>Стать нашим клиентом {'>'} </button>
             </div>
-        )}
+        {/*)}*/}
       </>
   );
 };
