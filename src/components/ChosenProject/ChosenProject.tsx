@@ -123,15 +123,14 @@ const ChosenProject = () => {
       <>
         <section className={styles.project_box}>
           {renderPages.map((item) => (
-                  <>
+                  <div key={item.id}>
                     {item.name &&
                       <img
                         className={styles.projects_item}
-                        key={item.id}
                         src={item.name}
                       />}
 
-                  </>
+                  </div>
               )
           )}
         </section>

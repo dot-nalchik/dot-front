@@ -39,3 +39,17 @@
   background: #882FAE;
   color: #ffffff;
 }
+
+[data-testid="MenuIcon"], [data-testid="CloseIcon"] {
+  width: 100px !important;
+  height: 100px !important;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+}
