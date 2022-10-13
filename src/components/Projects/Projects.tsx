@@ -152,7 +152,10 @@ const Projects = () => {
 
   return (
       <>
-        <div className={styles.projects_container}>
+        <div
+            className={styles.projects_container}
+            id="projects"
+        >
           <section className={styles.flex_projects1}>
             <a href="#at_the_top">
               <img

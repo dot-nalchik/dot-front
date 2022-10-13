@@ -27,13 +27,13 @@ const Header = () => {
             onClick={enableMainStatus}
         />
         <div className={styles.flex_btn}>
-          <a href="#">
+          <a href="#projects">
             <button className={styles.btn}>Проекты</button>
           </a>
-          <a href="#">
+          <a href="#contacts">
             <button className={styles.btn}>Контакты</button>
           </a>
-          <a href="#">
+          <a href="#request">
             <button className={clsx(styles.request_btn, styles.btn)}>Заявка</button>
           </a>
         </div>

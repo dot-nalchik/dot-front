@@ -5,7 +5,10 @@ import ball from "../../images/ball.svg";
 
 const Contacts = () => {
   return (
-      <div className={styles.contacts_container}>
+      <div
+          className={styles.contacts_container}
+          id="contacts"
+      >
         <section className={styles.follow}>
           <h3 className={styles.contacts_title}>КОНТАКТЫ</h3>
           <a href="mailto:dot.nalchik@gmail.com">dot.nalchik@gmail.com</a>
@@ -18,7 +21,7 @@ const Contacts = () => {
           </div>
           <h4>© DOT 2022</h4>
         </section>
-        <form className={styles.coop}>
+        <form className={styles.coop} id="request">
           <h3>Начать сотрудничать</h3>
           <h1>Создать проект с нами?</h1>
           <p>Услуги</p>
@@ -39,7 +42,6 @@ const Contacts = () => {
                 type="text"
                 placeholder="Ваше имя"
             />
-
             <input
                 type="email"
                 placeholder="Ваш e-mail"
