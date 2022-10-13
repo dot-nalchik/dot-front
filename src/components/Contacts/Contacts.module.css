@@ -166,3 +166,70 @@ h4 {
   color: white;
   background: #882FAE;
 }
+
+@media screen and (max-width: 480px) {
+  .contacts_container {
+    flex-direction: column-reverse;
+    margin-top: 80px;
+    padding: 80px 150px;
+    justify-content: start;
+
+  }
+
+  .follow > h3 {
+    font-size: 45px;
+  }
+
+  .follow > a {
+    font-size: 50px;
+  }
+
+  .icons > img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .rectangle {
+    width: 100vw;
+  }
+
+  .follow > h4 {
+    font-size: 75px;
+  }
+
+  .coop {
+    margin-top: 45px;
+  }
+
+  .coop > h3 {
+    font-size: 45px;
+  }
+
+  .coop > h1 {
+    font-size: 75px;
+  }
+
+  .coop > p {
+    font-size: 45px;
+    margin: 35px 0;
+  }
+
+  .btn_flex {
+    gap: 25px;
+  }
+
+  .btn_flex > button {
+    font-size: 35px;
+    padding: 30px 35px;
+  }
+
+  .inputs > input, .inputs > input::placeholder {
+    font-size: 45px;
+  }
+
+  .btn_submit {
+    font-size: 45px;
+    max-width: 600px;
+    height: 120px;
+  }
+}

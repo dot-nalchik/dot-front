@@ -42,6 +42,10 @@ p {
   text-align: center;
 }
 
+.client_link {
+  align-self: center;
+}
+
 .client_btn {
   background: transparent;
   border: none;
@@ -68,4 +72,27 @@ p {
   color: #000000;
   margin-top: 40px;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 155px;
+  }
+
+  .client_btn {
+    font-size: 35px;
+  }
+
+  .title_container > p {
+    font-size: 45px;
+  }
+
+  .project_descr {
+    font-size: 35px;
+    width: 30%;
+  }
+
+  .link {
+    font-size: 34px;
+  }
 }

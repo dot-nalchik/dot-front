@@ -91,3 +91,42 @@
 .sup > h2 {
   color: #882FAE;
 }
+
+@media screen and (max-width: 480px) {
+  .options_container {
+    padding: 0 120px;
+  }
+
+  .title {
+    font-size: 135px;
+    padding: 120px 80px;
+    margin-top: 75px;
+  }
+
+  .options {
+    flex-wrap: wrap;
+    padding: 20px 100px;
+  }
+
+  .box > h2 {
+    font-size: 145px;
+  }
+
+  .choose_flex {
+    margin-top: 105px;
+  }
+
+  .box_flex {
+    width: 100%;
+    height: 470px;
+    padding: 80px;
+  }
+
+  .box_flex > h2 {
+    font-size: 100px;
+  }
+
+  .smm_flex > p, .box_flex > p {
+    font-size: 35px;
+  }
+}

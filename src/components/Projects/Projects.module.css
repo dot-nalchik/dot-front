@@ -36,3 +36,23 @@
   letter-spacing: 0.018em;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .projects_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .flex_projects1, .flex_projects2 {
+    margin-top: 20px;
+  }
+
+  .img_project {
+    width: 950px;
+  }
+
+  .open_btn{
+    font-size: 35px;
+  }
+}

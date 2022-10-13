@@ -31,7 +31,7 @@ const Contacts = () => {
             <button>Разработка</button>
             <button>Продвижение</button>
           </div>
-          <p>Бюджет в рублях</p>
+          <p className={styles.budget}>Бюджет в рублях</p>
           <div className={styles.btn_flex}>
             <button>до 100К</button>
             <button>100К-200К</button>

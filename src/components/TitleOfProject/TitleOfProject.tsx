@@ -66,7 +66,9 @@ const TitleOfProject = () => {
         ) : (
             <div className={styles.title_container}>
               <h1 className={styles.title}>Заголовок заголовок заголовок заголовок заголовок</h1>
-              <button className={styles.client_btn}>Стать нашим клиентом {'>'} </button>
+              <a href="#request" className={styles.client_link}>
+                <button className={styles.client_btn}>Стать нашим клиентом {'>'} </button>
+              </a>
             </div>
         )}
       </>
